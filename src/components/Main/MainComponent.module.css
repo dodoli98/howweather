@@ -1,0 +1,50 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+main .searchBox {
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #6d92e7;
+}
+main .searchBox input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 80%;
+  padding: 1rem;
+}
+main .searchBox button {
+  background-color: transparent;
+  padding: 1rem;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+main .weatherInfo {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgba(224, 224, 224, 0.6117647059);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .weatherInfo .weatherEmoji {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+main .weatherInfo .temperature {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+main .weatherInfo .uvIndex {
+  font-size: 1rem;
+  color: #555;
+}
