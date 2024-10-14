@@ -11,7 +11,7 @@ export default function MainComponent() {
     const API_KEY = "005c59426d0d586111de8cf5ad7c9264";
 
     const getWeatherData = () => {
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
         axios
             .get(url)
